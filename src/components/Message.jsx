@@ -9,7 +9,7 @@ const Message = ({ message }) => {
     const ref = useRef();
 
     const isLocationMessage = message.text?.includes("Mi ubicación: https://www.google.com/maps");
-    const API_KEY = 'AIzaSyDF7DCgvnT9TyS-eWpm46d1wejbNCKdEyE';
+    const API_KEY = '';
 
     useEffect(() => {
         ref.current?.scrollIntoView({ behavior: "smooth" });
